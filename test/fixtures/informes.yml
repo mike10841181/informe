@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nombre_lider: MyString
+  celula_madre: MyString
+  telefono: 9.99
+  red: MyString
+  hermano: 9.99
+  amigo: 9.99
+  acepto: 9.99
+  reconcilio: 9.99
+  total: 9.99
+  asistenigle: 9.99
+  ofrenda: 9.99
+  fecha: 2012-03-02
+
+two:
+  nombre_lider: MyString
+  celula_madre: MyString
+  telefono: 9.99
+  red: MyString
+  hermano: 9.99
+  amigo: 9.99
+  acepto: 9.99
+  reconcilio: 9.99
+  total: 9.99
+  asistenigle: 9.99
+  ofrenda: 9.99
+  fecha: 2012-03-02

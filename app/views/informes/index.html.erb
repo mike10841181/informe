@@ -1,0 +1,45 @@
+<h1>Listing informes</h1>
+
+<table>
+  <tr>
+    <th>Nombre lider</th>
+    <th>Celula madre</th>
+    <th>Telefono</th>
+    <th>Red</th>
+    <th>Hermano</th>
+    <th>Amigo</th>
+    <th>Acepto</th>
+    <th>Reconcilio</th>
+    <th>Total</th>
+    <th>Asistenigle</th>
+    <th>Ofrenda</th>
+    <th>Fecha</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @informes.each do |informe| %>
+  <tr>
+    <td><%= informe.nombre_lider %></td>
+    <td><%= informe.celula_madre %></td>
+    <td><%= informe.telefono %></td>
+    <td><%= informe.red %></td>
+    <td><%= informe.hermano %></td>
+    <td><%= informe.amigo %></td>
+    <td><%= informe.acepto %></td>
+    <td><%= informe.reconcilio %></td>
+    <td><%= informe.total %></td>
+    <td><%= informe.asistenigle %></td>
+    <td><%= informe.ofrenda %></td>
+    <td><%= informe.fecha %></td>
+    <td><%= link_to 'Show', informe %></td>
+    <td><%= link_to 'Edit', edit_informe_path(informe) %></td>
+    <td><%= link_to 'Destroy', informe, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Informe', new_informe_path %>
